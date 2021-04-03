@@ -1,8 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-# (c) @DforDarkAngel
-# @DX_Botz
-
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton ,CallbackQuery
 import os, shutil
@@ -15,8 +10,8 @@ from translation import Translation
 async def help_button(bot, update):
     await update.answer()
     buttons = [[
-        InlineKeyboardButton('📌 Support Group', url='https://t.me/Dx_Support'),
-        InlineKeyboardButton('Update Channel 📜', url='https://t.me/DX_Botz')
+        InlineKeyboardButton('📌 Support Group', url='https://t.me/ubuntu_coders'),
+        InlineKeyboardButton('Update Channel 📜', url='https://t.me/UC_bot_channel')
         ],[
         InlineKeyboardButton('♻️Share', url='tg://msg?text=**Hey%20Broh**%F0%9F%A5%B0%2C%0A__This%20Bot%20Generate%20Telegraph%20Link__%F0%9F%94%A5%0A%0A**Bot%20Link**%20%3A-%20%40TGraphDXBot'),
         InlineKeyboardButton('Close 🔐', callback_data='cancel_btn')
