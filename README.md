@@ -48,7 +48,6 @@ If you are facing any issue or having problem in deployment then contact us thro
 [+] Make Sure You Add All These Mandatory Vars. 
     [-] API_ID:   You can get this value from https://my.telegram.org
     [-] API_HASH :   You can get this value from https://my.telegram.org
-    [-] AUTH_USERS : allow only pre-defined users to use this bot, You can get this From @userinfobot
     [-] BOT_TOKEN : You can get thus value from https://t.me/BotFather
 [+] The SC-TRenamer-bot will not work without setting the mandatory vars.
 ```
